@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Customs — App Check (Problem 11)</title>
+    <style>
+      :root {
+        --navy: #00356b;
+        --teal: #046e82;
+        --ink: #1d1d1d;
+        --grey: #4d4d4d;
+        --line: #dddddd;
+        --bg: #f6f6f6;
+        --pass: #1f7a3d;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+        color: var(--ink);
+        background: var(--bg);
+        line-height: 1.55;
+      }
+      header {
+        background: var(--navy);
+        color: #fff;
+        padding: 2rem 1.5rem;
+        border-bottom: 5px solid #f2c94c;
+      }
+      header h1 {
+        margin: 0 0 0.35rem;
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 2rem;
+      }
+      header p {
+        margin: 0;
+        color: #dde7f1;
+      }
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1.5rem;
+      }
+      .summary {
+        width: 100%;
+        border-collapse: collapse;
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 2rem;
+      }
+      .summary th,
+      .summary td {
+        text-align: left;
+        padding: 0.6rem 0.9rem;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+      .summary th {
+        background: #f0f5fa;
+        font-size: 0.85rem;
+      }
+      .summary tr:last-child td {
+        border-bottom: none;
+      }
+      .pass {
+        color: var(--pass);
+        font-weight: 700;
+        white-space: nowrap;
+      }
+      section.check {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-top: 4px solid var(--navy);
+        border-radius: 10px;
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+      }
+      section.check h2 {
+        margin: 0 0 0.25rem;
+        font-family: Georgia, 'Times New Roman', serif;
+        color: var(--navy);
+      }
+      .ask {
+        margin: 0 0 1rem;
+        color: var(--grey);
+      }
+      .proves {
+        background: #f0f5fa;
+        border-left: 4px solid var(--teal);
+        padding: 0.75rem 1rem;
+        border-radius: 0 8px 8px 0;
+        margin: 1rem 0;
+      }
+      .proves strong {
+        color: var(--teal);
+      }
+      figure {
+        margin: 1rem 0 0;
+      }
+      figure a {
+        display: block;
+      }
+      figure img {
+        width: 100%;
+        height: auto;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        display: block;
+      }
+      figcaption {
+        font-size: 0.9rem;
+        color: var(--grey);
+        margin-top: 0.4rem;
+      }
+      .db {
+        border-collapse: collapse;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+      }
+      .db th,
+      .db td {
+        border: 1px solid var(--line);
+        padding: 0.35rem 0.65rem;
+        text-align: center;
+      }
+      .db th {
+        background: #f6f6f6;
+      }
+      .sold {
+        color: #9a1f1f;
+        font-weight: 600;
+      }
+      code {
+        background: #f0f0f0;
+        padding: 0.05rem 0.35rem;
+        border-radius: 4px;
+        font-size: 0.88em;
+      }
+      footer {
+        text-align: center;
+        color: var(--grey);
+        font-size: 0.85rem;
+        padding: 1rem 1.5rem 2.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Campus Customs — App Check</h1>
+      <p>Problem 11 · Tested on the running site (React + Vite frontend, FastAPI + PydanticAI backend) · September 27, 2026</p>
+    </header>
+
+    <main>
+      <p>
+        Each check below was run in a real browser (Chrome) on the running site at <code>http://localhost:5173</code>, as a
+        guest shopper, with the chatbot on <code>gpt-5.6-luna</code>. Every number the site showed was compared with
+        <code>data/campus_customs.db</code>. Click any screenshot to open it full size.
+      </p>
+
+      <table class="summary">
+        <tr>
+          <th>#</th>
+          <th>Check</th>
+          <th>Result</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Chat checks an item's inventory and price (honest numbers from the database)</td>
+          <td class="pass">✔ Pass</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Dynamic search-result cards appear after a category question</td>
+          <td class="pass">✔ Pass</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Problem 9 usability feature: product filters (size, color, price)</td>
+          <td class="pass">✔ Pass</td>
+        </tr>
+      </table>
+
+      <!-- ===================== CHECK 1 ===================== -->
+      <section class="check" id="check-1">
+        <h2>Check 1 — Chat checks inventory level (honest stock and price)</h2>
+        <p class="ask">
+          On the <em>Champion Reverse Weave Hoodie</em> product page, the shopper asked the chat:
+          <strong>“how much is this hoodie, and how many are left in medium and in XL?”</strong>
+        </p>
+
+        <figure>
+          <a href="app_check_images/inventory.png"><img src="app_check_images/inventory.png" alt="Chat reply: the Champion Reverse Weave Hoodie is $68, 20 left in medium, XL sold out" /></a>
+          <figcaption>
+            The chat (Handsome Dan) answers: <strong>“The Champion Reverse Weave Hoodie is $68. There are 20 left in medium;
+            XL is sold out.”</strong> It understood “this hoodie” from the product page the shopper was on.
+          </figcaption>
+        </figure>
+        <figure>
+          <a href="app_check_images/inventory_page.png"><img src="app_check_images/inventory_page.png" alt="Product page size grid: XS sold out, S 25, M 20, L 20, XL sold out, XXL 15; price $68.00" /></a>
+          <figcaption>The same product's size grid on the page: $68.00, M = 20 in stock, XL = sold out.</figcaption>
+        </figure>
+
+        <p><strong>Database values</strong> (<code>catalogue.price</code> and <code>inventory.quantity</code> for <code>champion-reverse-weave-hoodie-1</code>):</p>
+        <table class="db">
+          <tr>
+            <th>Price</th>
+            <th>XS</th>
+            <th>S</th>
+            <th>M</th>
+            <th>L</th>
+            <th>XL</th>
+            <th>XXL</th>
+          </tr>
+          <tr>
+            <td>$68.00</td>
+            <td class="sold">0</td>
+            <td>25</td>
+            <td><strong>20</strong></td>
+            <td>20</td>
+            <td class="sold"><strong>0</strong></td>
+            <td>15</td>
+          </tr>
+        </table>
+
+        <p class="proves">
+          <strong>What this proves:</strong> the chatbot quotes the real price and exact stock by size straight from
+          <code>campus_customs.db</code>, and it honestly says a size is sold out instead of guessing. Its answer matches both
+          the database and the product page.
+        </p>
+      </section>
+
+      <!-- ===================== CHECK 2 ===================== -->
+      <section class="check" id="check-2">
+        <h2>Check 2 — Search-result cards appear after a category question</h2>
+        <p class="ask">
+          Starting on the Home page, the shopper asked the chat: <strong>“what quarter-zips do you have?”</strong>
+        </p>
+
+        <figure>
+          <a href="app_check_images/search_results.png"><img src="app_check_images/search_results.png" alt="Products page showing 'From the shop assistant: Quarter-zips, 11 matches' with product cards, and the chat reply" /></a>
+          <figcaption>
+            The site switched to <code>/products?from=chat</code> on its own and showed a “From the shop assistant · Quarter-zips ·
+            11 matches” banner above the matching product cards. The chat says “I found 11 quarter-zips… they’re on the page now,”
+            with three highlight cards and a “View 11 results on the page” link.
+          </figcaption>
+        </figure>
+        <figure>
+          <a href="app_check_images/search_results_grid.png"><img src="app_check_images/search_results_grid.png" alt="The quarter-zip result cards with the chat closed" /></a>
+          <figcaption>The same results with the chat closed: product cards with real photos, names and $72.00 prices, each linking to its product page.</figcaption>
+        </figure>
+
+        <p class="proves">
+          <strong>What this proves:</strong> a category question makes the agent search the catalogue and return structured
+          matches, and the website turns them into product cards on the page. All <strong>11</strong> cards match the database's
+          11 quarter-zip products at $72. One of them is named “School of Architecture Crewneck”, but the catalogue lists it as a
+          quarter-zip pullover, so it belongs there.
+        </p>
+      </section>
+
+      <!-- ===================== CHECK 3 ===================== -->
+      <section class="check" id="check-3">
+        <h2>Check 3 — Usability feature from Problem 9: product filters</h2>
+        <p class="ask">
+          On the Products page, the shopper picked <strong>Size XS</strong>, <strong>Color: Gray</strong> and
+          <strong>Price: Under $40</strong> in the filter sidebar.
+        </p>
+
+        <figure>
+          <a href="app_check_images/filters.png"><img src="app_check_images/filters.png" alt="Products page with XS, Gray and Under $40 selected, showing 14 of 102 items and removable filter chips" /></a>
+          <figcaption>
+            The list narrowed to <strong>14 of 102 items</strong>, all gray T-shirts under $40 with XS in stock. The active filters
+            show as removable chips (<em>Size XS ×</em>, <em>Gray ×</em>, <em>Under $40 ×</em>), and the page address became
+            <code>/products?size=XS&amp;color=Gray&amp;price=under-40</code>.
+          </figcaption>
+        </figure>
+
+        <p class="proves">
+          <strong>What this proves:</strong> the size, color and price filters work together and show exactly the right products.
+          The 14 results equal an independent count of products with XS in stock, a gray color and a price under $40. Because
+          the filters are saved in the page address, opening a product and pressing Back returned to the same 14 results.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      Campus Customs · Homework 4, Problem 11 · Screenshots in <code>app_check_images/</code>
+    </footer>
+  </body>
+</html>

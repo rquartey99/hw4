@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="770" height="520" viewBox="0 0 770 520">
+<g fill="#00356b" stroke="#00356b" opacity="0.07" font-family="Georgia, 'Times New Roman', serif" font-weight="700" letter-spacing="0.5">
+<g transform="translate(33.0 38.0)">
+  <clipPath id="c0"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c0)"></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">BF</text>
+</g>
+<g transform="translate(143.0 38.0)">
+  <clipPath id="c1"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c1)"><path d="M14 0 L22 12 L30 0 Z" stroke="none" fill-opacity="0.45"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">BK</text>
+</g>
+<g transform="translate(253.0 38.0)">
+  <clipPath id="c2"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c2)"><path d="M0 41 H44 M0 46 H44" stroke-width="2"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">BR</text>
+</g>
+<g transform="translate(363.0 38.0)">
+  <clipPath id="c3"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c3)"><path d="M5 4 H39 V27 C39 39 22 47 22 47 C22 47 5 39 5 27 Z" fill="none" stroke-width="1.4"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">DC</text>
+</g>
+<g transform="translate(473.0 38.0)">
+  <clipPath id="c4"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c4)"><path d="M5 47 L22 38 L39 47" fill="none" stroke-width="2.5"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">ES</text>
+</g>
+<g transform="translate(583.0 38.0)">
+  <clipPath id="c5"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c5)"><rect x="0" y="0" width="44" height="11" stroke="none" fill-opacity="0.45"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">GH</text>
+</g>
+<g transform="translate(693.0 38.0)">
+  <clipPath id="c6"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c6)"></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">JE</text>
+</g>
+<g transform="translate(88.0 168.0)">
+  <clipPath id="c7"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c7)"><path d="M14 0 L22 12 L30 0 Z" stroke="none" fill-opacity="0.45"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">MC</text>
+</g>
+<g transform="translate(198.0 168.0)">
+  <clipPath id="c8"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c8)"><path d="M0 41 H44 M0 46 H44" stroke-width="2"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">PC</text>
+</g>
+<g transform="translate(308.0 168.0)">
+  <clipPath id="c9"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c9)"><path d="M5 4 H39 V27 C39 39 22 47 22 47 C22 47 5 39 5 27 Z" fill="none" stroke-width="1.4"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">PM</text>
+</g>
+<g transform="translate(440.0 195.0)"><g transform="translate(-14 -14)"><ellipse cx="14" cy="18" rx="7" ry="6"/><circle cx="5" cy="9" r="3"/><circle cx="11" cy="4" r="3"/><circle cx="18" cy="4" r="3"/><circle cx="24" cy="9" r="3"/></g></g>
+<g transform="translate(528.0 168.0)">
+  <clipPath id="c11"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c11)"><path d="M5 47 L22 38 L39 47" fill="none" stroke-width="2.5"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">SY</text>
+</g>
+<g transform="translate(638.0 168.0)">
+  <clipPath id="c12"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c12)"><rect x="0" y="0" width="44" height="11" stroke="none" fill-opacity="0.45"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">SM</text>
+</g>
+<g transform="translate(748.0 168.0)">
+  <clipPath id="c13"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c13)"></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">TD</text>
+</g>
+<g transform="translate(-22.0 168.0)">
+  <clipPath id="c13w"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c13w)"></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">TD</text>
+</g>
+<g transform="translate(33.0 298.0)">
+  <clipPath id="c14"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c14)"><path d="M14 0 L22 12 L30 0 Z" stroke="none" fill-opacity="0.45"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="13" stroke="none">TC</text>
+</g>
+<g transform="translate(143.0 298.0)">
+  <clipPath id="c15"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c15)"><path d="M0 41 H44 M0 46 H44" stroke-width="2"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">SOM</text>
+</g>
+<g transform="translate(253.0 298.0)">
+  <clipPath id="c16"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c16)"><path d="M5 4 H39 V27 C39 39 22 47 22 47 C22 47 5 39 5 27 Z" fill="none" stroke-width="1.4"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">LAW</text>
+</g>
+<g transform="translate(363.0 298.0)">
+  <clipPath id="c17"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c17)"><path d="M5 47 L22 38 L39 47" fill="none" stroke-width="2.5"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">MED</text>
+</g>
+<g transform="translate(473.0 298.0)">
+  <clipPath id="c18"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c18)"><rect x="0" y="0" width="44" height="11" stroke="none" fill-opacity="0.45"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">ART</text>
+</g>
+<g transform="translate(583.0 298.0)">
+  <clipPath id="c19"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c19)"></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">DIV</text>
+</g>
+<g transform="translate(693.0 298.0)">
+  <clipPath id="c20"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c20)"><path d="M14 0 L22 12 L30 0 Z" stroke="none" fill-opacity="0.45"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">MUS</text>
+</g>
+<g transform="translate(88.0 428.0)">
+  <clipPath id="c21"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c21)"><path d="M0 41 H44 M0 46 H44" stroke-width="2"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">NUR</text>
+</g>
+<g transform="translate(198.0 428.0)">
+  <clipPath id="c22"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c22)"><path d="M5 4 H39 V27 C39 39 22 47 22 47 C22 47 5 39 5 27 Z" fill="none" stroke-width="1.4"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">SPH</text>
+</g>
+<g transform="translate(308.0 428.0)">
+  <clipPath id="c23"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c23)"><path d="M5 47 L22 38 L39 47" fill="none" stroke-width="2.5"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">ARC</text>
+</g>
+<g transform="translate(418.0 428.0)">
+  <clipPath id="c24"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c24)"><rect x="0" y="0" width="44" height="11" stroke="none" fill-opacity="0.45"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">ENG</text>
+</g>
+<g transform="translate(550.0 455.0)"><g transform="translate(-14 -14)"><ellipse cx="14" cy="18" rx="7" ry="6"/><circle cx="5" cy="9" r="3"/><circle cx="11" cy="4" r="3"/><circle cx="18" cy="4" r="3"/><circle cx="24" cy="9" r="3"/></g></g>
+<g transform="translate(638.0 428.0)">
+  <clipPath id="c26"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c26)"></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">ENV</text>
+</g>
+<g transform="translate(748.0 428.0)">
+  <clipPath id="c27"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c27)"><path d="M14 0 L22 12 L30 0 Z" stroke="none" fill-opacity="0.45"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">DRA</text>
+</g>
+<g transform="translate(-22.0 428.0)">
+  <clipPath id="c27w"><path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z"/></clipPath>
+  <g clip-path="url(#c27w)"><path d="M14 0 L22 12 L30 0 Z" stroke="none" fill-opacity="0.45"/></g>
+  <path d="M0 0 H44 V28 C44 44 22 54 22 54 C22 54 0 44 0 28 Z" fill="none" stroke-width="2.2"/>
+  <text x="22" y="31" text-anchor="middle" font-size="10.5" stroke="none">DRA</text>
+</g>
+</g>
+</svg>
